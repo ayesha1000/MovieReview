@@ -1,0 +1,38 @@
+.movies-list {
+  margin-top: 20px;
+  height: 400px;
+  overflow-y: auto;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+ul li {
+  background: #fff;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  font-size: 16px;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+ul li span.title {
+  font-weight: 600;
+  color: #4f46e5;
+}
+
+ul li span.meta {
+  font-size: 14px;
+  color: #666;
+}

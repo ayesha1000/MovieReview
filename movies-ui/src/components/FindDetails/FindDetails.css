@@ -1,0 +1,30 @@
+.movie-title {
+  font-weight: 600;
+  color: #4f46e5;
+}
+
+.meta {
+  font-size: 14px;
+  color: #666;
+}
+
+.movie-info {
+  width: 600px;
+  background: #fff;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  font-size: 16px;
+  color: #333;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.subtitle {
+  color: black;
+}
+
+.error {
+  color: red;
+}
